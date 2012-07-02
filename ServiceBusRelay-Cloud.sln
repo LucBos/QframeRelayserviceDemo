@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusRelay.Web", "ServiceBusRelay.Web\ServiceBusRelay.Web.csproj", "{2D7FE226-D698-4F7D-8BED-62932113F160}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "ServiceBusRelay.Web.Azure", "ServiceBusRelay.Web.Azure\ServiceBusRelay.Web.Azure.ccproj", "{DA71A5BE-126C-4377-8C30-F1DABABCBC08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D7FE226-D698-4F7D-8BED-62932113F160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D7FE226-D698-4F7D-8BED-62932113F160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D7FE226-D698-4F7D-8BED-62932113F160}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2D7FE226-D698-4F7D-8BED-62932113F160}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2D7FE226-D698-4F7D-8BED-62932113F160}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2D7FE226-D698-4F7D-8BED-62932113F160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D7FE226-D698-4F7D-8BED-62932113F160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D7FE226-D698-4F7D-8BED-62932113F160}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2D7FE226-D698-4F7D-8BED-62932113F160}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2D7FE226-D698-4F7D-8BED-62932113F160}.Release|x86.ActiveCfg = Release|Any CPU
+		{DA71A5BE-126C-4377-8C30-F1DABABCBC08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA71A5BE-126C-4377-8C30-F1DABABCBC08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA71A5BE-126C-4377-8C30-F1DABABCBC08}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{DA71A5BE-126C-4377-8C30-F1DABABCBC08}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{DA71A5BE-126C-4377-8C30-F1DABABCBC08}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DA71A5BE-126C-4377-8C30-F1DABABCBC08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA71A5BE-126C-4377-8C30-F1DABABCBC08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA71A5BE-126C-4377-8C30-F1DABABCBC08}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DA71A5BE-126C-4377-8C30-F1DABABCBC08}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{DA71A5BE-126C-4377-8C30-F1DABABCBC08}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

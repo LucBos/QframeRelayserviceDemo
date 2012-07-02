@@ -1,0 +1,16 @@
+﻿@model IEnumerable<ServiceBusRelay.Console.Customer>
+
+@{
+    ViewBag.Title = "Service Bus Relay Demo";
+}
+
+<h2>Customers</h2>
+
+<ul data-role="listview" data-inset="true" data-filter="true">
+    @foreach (var item in Model)
+    {
+        <li class="profile">
+            @Html.ActionLink(string.Format("{0} ({1})", item.ContactName, item.CompanyName), "Details", new { id = item.CustomerID })
+        </li>
+    }
+</ul>

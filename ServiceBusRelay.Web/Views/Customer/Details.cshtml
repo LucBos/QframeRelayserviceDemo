@@ -1,0 +1,24 @@
+﻿@model ServiceBusRelay.Console.Customer
+
+@{
+    ViewBag.Title = Model.ContactName;
+}
+
+@*<h2>@Html.DisplayFor(model => model.ContactName)</h2>*@
+
+ <ul data-role="listview" data-inset="true">
+    <li>Company: <div class="nobold">@Html.DisplayFor(model => model.CompanyName)</div></li>
+    <li>Name: <div class="nobold">@Html.DisplayFor(model => model.ContactName)</div></li>
+    <li>Title: <div class="nobold">@Html.DisplayFor(model => model.ContactTitle)</div></li>
+    <li>Address: <div class="nobold">@Html.DisplayFor(model => model.Address)</div></li>
+    <li>City: <div class="nobold">@Html.DisplayFor(model => model.City)</div></li>
+    <li>Region: <div class="nobold">@Html.DisplayFor(model => model.Region)</div></li>
+    <li>Postal Code: <div class="nobold">@Html.DisplayFor(model => model.PostalCode)</div></li>
+    <li>Country: <div class="nobold">@Html.DisplayFor(model => model.Country)</div></li>
+    <li>Phone: <div class="nobold">@Html.DisplayFor(model => model.Phone)</div></li>
+    <li>Fax: <div class="nobold">@Html.DisplayFor(model => model.Fax)</div></li>
+</ul>
+
+<p>
+    @Html.ActionLink("Back", "Index")
+</p>
